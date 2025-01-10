@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 100%;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.header-list {
+  display: flex;
+  gap: 40px;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  background-color: #e33d0e;
+  color: white;
+}
+.card-parend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.card {
+  width: 380px;
+  height: 551.5px;
+  padding: 20px;
+  border-radius: 24px 24px;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coins {
+  display: flex;
+  background: linear-gradient(286.17deg, #e33d0e 0%, #ff7d58 100%);
+  width: 380px;
+  height: 75px;
+  padding: 10px 40px 10px 40px;
+  justify-content: space-around;
+  border-radius: 16px;
+}
+
+.coin-text {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 28px;
+}
+.exp-text {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 28px;
+}
+
+.imgs {
+  display: flex;
+  align-items: center;
+}
+
+.i1 {
+  position: relative;
+  top: 73px;
+  right: 100px;
+}
+.i2 {
+  position: relative;
+  top: 73px;
+  right: 10px;
+}
